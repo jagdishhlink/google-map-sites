@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Glam Studio Beauty Salon",
+  slug: "glam-studio-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 58 503 1017",
+  phoneRaw: "971585031017",
+  address: "Bank Street, Al Mankhool, Bur Dubai M-01, Al Abbas Building 2 (Block B - Dubai - United Arab Emirates",
+  street: "Bank Street, Al Mankhool, Bur Dubai M-01, Al Abbas Building 2 (Block B",
+  neighborhood: "Mankhool",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.7,
+  reviews: 219,
+  fiveStarPct: 89,
+  images: 59,
+  lat: 25.2557636,
+  lng: 55.3008619,
+  placeId: "ChIJewKrHLlDXz4RrXuiRQtbc3o",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Glam%20Studio%20Beauty%20Salon&query_place_id=ChIJewKrHLlDXz4RrXuiRQtbc3o",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmNAzEU1jKIxGZfMWdjUFsGRobpsRnQxHGuKVn7Zj0SuFJkkEZe6JtY5qou_4L6FTTufSVVpsDGKD5PXIb-Q-2W9FYrJoRdIBJBvuAkM8oDOTS2iscQHOA3qqwFepKpOx84pl_LjtA=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 11 PM" },
+  { day: "Saturday", time: "10 AM to 11 PM" },
+  { day: "Sunday", time: "10 AM to 11 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
