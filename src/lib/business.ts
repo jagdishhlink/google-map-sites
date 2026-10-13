@@ -1,0 +1,40 @@
+export const biz = {
+  name: "THE ICON HAIR LADIES BEAUTY SALON",
+  slug: "the-icon-hair-ladies-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 4 529 7827",
+  phoneRaw: "97145297827",
+  address: "The Icon Hair Ladies Beauty Salon, Khalid Al Attar Building - Umm Hurair First - Umm Hurair 1 - Dubai - United Arab Emirates",
+  street: "The Icon Hair Ladies Beauty Salon, Khalid Al Attar Building",
+  neighborhood: "Umm Hurair First - Umm Hurair 1",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 3.7,
+  reviews: 59,
+  fiveStarPct: 56,
+  images: 170,
+  lat: 25.2553536,
+  lng: 55.30516,
+  placeId: "ChIJzXrMixZDXz4RR0QbkRkLi4Y",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=THE%20ICON%20HAIR%20LADIES%20BEAUTY%20SALON&query_place_id=ChIJzXrMixZDXz4RR0QbkRkLi4Y",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmM3QMBtwY2OsXY-LMDu_QwdhXeN3SyGeP7NiEZCDLD4PKGYCrgSuRwsR6znXxRbghDUpk_eAFNm60kVs3FgF0tSrK9pGuseJB7ma8eWz0_YCcr3ngKMWvaBxmJ2lr1UNCvPbK4Y8Q=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
