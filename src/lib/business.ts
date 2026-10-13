@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Hetal’s bridal studio",
+  slug: "hetals-bridal-studio",
+  category: "Beauty salon",
+  phone: "+91 75750 67888",
+  phoneRaw: "917575067888",
+  address: "Mayur villa, B-5, near Samarpan Circle, Ajanta Society, Jamnagar, Gujarat 361006, India",
+  street: "Mayur villa, B-5, near Samarpan Circle",
+  neighborhood: "Ajanta Society",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 46,
+  fiveStarPct: 91,
+  images: 9,
+  lat: 22.4573947,
+  lng: 70.0343333,
+  placeId: "ChIJXSh-egAVVzkRHcI14v40gKw",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Hetal%E2%80%99s%20bridal%20studio&query_place_id=ChIJXSh-egAVVzkRHcI14v40gKw",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLdkIS2aXXNfnI1Ow5O4LU5Mea78JB6SsGyDnoFNNIKX52y8_xBT0GSfsj6YhI_XuLiTBn95hhMbnN5NECTJZUPXbz4rmTLx5nhcgERLif_a8uONIWSbBKyTUzml0BeLEp8QnaT6=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 8 PM" },
+  { day: "Tuesday", time: "10 AM to 8 PM" },
+  { day: "Wednesday", time: "10 AM to 8 PM" },
+  { day: "Thursday", time: "10 AM to 8 PM" },
+  { day: "Friday", time: "10 AM to 8 PM" },
+  { day: "Saturday", time: "10 AM to 8 PM" },
+  { day: "Sunday", time: "10 AM to 8 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
