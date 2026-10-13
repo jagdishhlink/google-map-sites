@@ -1,0 +1,40 @@
+export const biz = {
+  name: "zx best hair salon",
+  slug: "zx-best-hair-salon",
+  category: "Beauty salon",
+  phone: "+91 288 406 9595",
+  phoneRaw: "912884069595",
+  address: "zx salon opp.v-mart, opp. V-mart hero service center Bodyline. Ambika dary, Jamnagar, Gujarat 361002, India",
+  street: "zx salon opp.v-mart, opp. V-mart hero service center Bodyline. Ambika dary",
+  neighborhood: "Swastik Society, Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.3,
+  reviews: 141,
+  fiveStarPct: 62,
+  images: 24,
+  lat: 22.4791643,
+  lng: 70.0518428,
+  placeId: "ChIJ8dihxuVrVzkR78KC-1lTcy4",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=zx%20best%20hair%20salon&query_place_id=ChIJ8dihxuVrVzkR78KC-1lTcy4",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLd0pIda5sw57ifkIbCqGgsM2K9LDtZqlt4fHpzZz8lii1aPC_GNOG4DQdj84roTI3NMKyAtVy_ogx2Tw9Fjqb7SIpSbJ8z9RG_HPY04euKXVXYAJhIM6p32lsH8rZwqLd9o0Qo=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "8 AM to 10:30 PM" },
+  { day: "Tuesday", time: "8 AM to 10:30 PM" },
+  { day: "Wednesday", time: "8 AM to 10:30 PM" },
+  { day: "Thursday", time: "8 AM to 10:30 PM" },
+  { day: "Friday", time: "8 AM to 10:30 PM" },
+  { day: "Saturday", time: "8 AM to 10:30 PM" },
+  { day: "Sunday", time: "8 AM to 10:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible entrance"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
