@@ -1,0 +1,40 @@
+export const biz = {
+  name: "USTAAD Men salon Dubai - (Gents Salon)",
+  slug: "ustaad-men-salon-dubai-gents-salon",
+  category: "Beauty salon",
+  phone: "+971 54 395 8183",
+  phoneRaw: "971543958183",
+  address: "Shop no 2 Al zarooni bldg. Sauq Al kabeer 2 - bur dubai - Dubai - United Arab Emirates",
+  street: "Shop no 2 Al zarooni bldg. Sauq Al kabeer 2",
+  neighborhood: "bur dubai - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.8,
+  reviews: 73,
+  fiveStarPct: 92,
+  images: 50,
+  lat: 25.2611527,
+  lng: 55.2908381,
+  placeId: "ChIJR2luSIBDXz4R-Y7-euNryeI",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=USTAAD%20Men%20salon%20Dubai%20-%20(Gents%20Salon)&query_place_id=ChIJR2luSIBDXz4R-Y7-euNryeI",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmOH318FH7muGO8VIM6XsIXYF3IBBGwc7EhLKRWkE5Cp327yoMmCCcULF9t1kJFFJUigftiGyy2lUJx2eWAMblsL9oSOQVbSOw9NSmOjApuu3-TYbrEhkwwn_lR5SGYMXDNm5Y4Z=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9:30 AM to 12:30 AM" },
+  { day: "Tuesday", time: "9:30 AM to 12 AM" },
+  { day: "Wednesday", time: "9 AM to 12 AM" },
+  { day: "Thursday", time: "9 AM to 12 AM" },
+  { day: "Friday", time: "9 AM to 12 AM" },
+  { day: "Saturday", time: "9 AM to 12 AM" },
+  { day: "Sunday", time: "9 AM to 12 AM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
