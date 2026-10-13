@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Aarika Salon & Academy",
+  slug: "aarika-salon-academy",
+  category: "Beauty salon",
+  phone: "+91 99253 03390",
+  phoneRaw: "919925303390",
+  address: "Amusement park, to, Satyam Colony Rd, Kamdar Colony, Jamnagar, Gujarat 361006, India",
+  street: "Amusement park, to, Satyam Colony Rd",
+  neighborhood: "Kamdar Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.6,
+  reviews: 148,
+  fiveStarPct: 84,
+  images: 69,
+  lat: 22.462305,
+  lng: 70.0450332,
+  placeId: "ChIJF0dkHdgVVzkR06xWp2_szk4",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Aarika%20Salon%20%26%20Academy&query_place_id=ChIJF0dkHdgVVzkR06xWp2_szk4",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLcNes14OKaYPrlQqAUTCPwIUS_QnPVSTJLY27MAPy1-neySKv5SVyUCTUNwxZkmGWX9C66cpkxXbRC5gsV-gcdR4kHOBSw2nanlTpx3hX-CLugHwKFV781V1XtSexMiM1VZEr5J=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9:30 AM to 8 PM" },
+  { day: "Tuesday", time: "9 AM to 6 PM" },
+  { day: "Wednesday", time: "9:30 AM to 8 PM" },
+  { day: "Thursday", time: "9:30 AM to 8 PM" },
+  { day: "Friday", time: "9:30 AM to 8 PM" },
+  { day: "Saturday", time: "9:30 AM to 8 PM" },
+  { day: "Sunday", time: "9:30 AM to 8 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
