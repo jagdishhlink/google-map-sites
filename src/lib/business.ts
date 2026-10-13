@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Right Choice Beauty Salon",
+  slug: "right-choice-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 50 207 9102",
+  phoneRaw: "971502079102",
+  address: "Same Building of York International Hotel, Al Yousuf Complex - 204 Khalid Bin Al Waleed Rd - Bur Dubai - Al Fahidi - Dubai - United Arab Emirates",
+  street: "Same Building of York International Hotel, Al Yousuf Complex - 204 Khalid Bin Al Waleed Rd",
+  neighborhood: "Bur Dubai - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.2,
+  reviews: 57,
+  fiveStarPct: 75,
+  images: 34,
+  lat: 25.2588438,
+  lng: 55.2969609,
+  placeId: "ChIJFXPta_lDXz4RsNHsBGiM9os",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Right%20Choice%20Beauty%20Salon&query_place_id=ChIJFXPta_lDXz4RsNHsBGiM9os",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmPl2hwRHyovOuQ5dXn8wpuVV0bDu7Wp4DolYwQPFhTuMoFqaozrtRk-d7QS0pzInYXlVTBR-JNGFPSiPRm8ykRAtxwSvKCzKFCyWxV0gzFwdrZYLvGVOwDKcRpRQGCYFnnwsuE=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 9 PM" },
+  { day: "Tuesday", time: "10 AM to 9 PM" },
+  { day: "Wednesday", time: "10 AM to 9 PM" },
+  { day: "Thursday", time: "10 AM to 9 PM" },
+  { day: "Friday", time: "10 AM to 5 PM" },
+  { day: "Saturday", time: "Closed" },
+  { day: "Sunday", time: "10 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
