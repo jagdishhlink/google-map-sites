@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Slender Ladies Salon",
+  slug: "slender-ladies-salon",
+  category: "Beauty salon",
+  phone: "+971 4 351 5745",
+  phoneRaw: "97143515745",
+  address: "22 3A St - Al Souq Al Kabeer - Al Fahidi - Dubai - United Arab Emirates",
+  street: "22 3A St",
+  neighborhood: "Al Souq Al Kabeer - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.8,
+  reviews: 131,
+  fiveStarPct: 94,
+  images: 31,
+  lat: 25.2637375,
+  lng: 55.2918137,
+  placeId: "ChIJ599h4FxDXz4Ruk8OOd2YqH0",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Slender%20Ladies%20Salon&query_place_id=ChIJ599h4FxDXz4Ruk8OOd2YqH0",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmOMNmEyN_7q9NfLJUbvryenVMtuycQbuFDiSVNIs-JtBU6_08DsIFy0fFYLgb0d2KC1e8YSeMfzmtZO1nRrevzt2ZB9GRmrXrvQ81xPDMfFyIblUueScgUNSQ7ozeXN4zKaA0jh1A=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9 AM to 10 PM" },
+  { day: "Tuesday", time: "9 AM to 10 PM" },
+  { day: "Wednesday", time: "9 AM to 10 PM" },
+  { day: "Thursday", time: "9 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "9 AM to 10 PM" },
+  { day: "Sunday", time: "9 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
