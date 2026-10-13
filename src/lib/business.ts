@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Melena Beauty Saloon",
+  slug: "melena-beauty-saloon",
+  category: "Beauty salon",
+  phone: "+91 96381 01071",
+  phoneRaw: "919638101071",
+  address: "Saru Section Rd, Aradhna Society, Mahavir Society, Park Colony, Jamnagar, Gujarat 361002, India",
+  street: "Saru Section Rd",
+  neighborhood: "Aradhna Society, Mahavir Society, Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4,
+  reviews: 263,
+  fiveStarPct: 63,
+  images: 45,
+  lat: 22.4796878,
+  lng: 70.0517738,
+  placeId: "ChIJzaGuIqtqVzkRgHkAm71tiXI",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Melena%20Beauty%20Saloon&query_place_id=ChIJzaGuIqtqVzkRgHkAm71tiXI",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLcU4LU0q64RNjs7Y4juRB3GjOqtCFphY6YatHjvQ7aWwlPljqc55AJ2ebTH51r-3KcReRSVttUQWShHTVr1lhzKqEbFhqpWnaSbbqIbW3uqUoyOqYCcgF1TCopUBVWJiznRosq9XBVNo5T3=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 8:30 PM" },
+  { day: "Tuesday", time: "10 AM to 8:30 PM" },
+  { day: "Wednesday", time: "10 AM to 8:30 PM" },
+  { day: "Thursday", time: "10 AM to 8:30 PM" },
+  { day: "Friday", time: "10 AM to 8:30 PM" },
+  { day: "Saturday", time: "10 AM to 8:30 PM" },
+  { day: "Sunday", time: "10 AM to 8:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
