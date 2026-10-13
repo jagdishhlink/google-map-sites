@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Glam and Glow Studio Jamnagar",
+  slug: "glam-and-glow-studio-jamnagar",
+  category: "Hairdresser",
+  phone: "+91 73035 48489",
+  phoneRaw: "917303548489",
+  address: "Arham, Raghuveer Society Rd, opp. Fire Brigade, near Janta Phatak, Ranjit Nagar, Summair Club Road, Jamnagar, Gujarat 361006, India",
+  street: "Arham, Raghuveer Society Rd, opp. Fire Brigade, near Janta Phatak",
+  neighborhood: "Ranjit Nagar, Summair Club Road",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 23,
+  fiveStarPct: 91,
+  images: 6,
+  lat: 22.4650837,
+  lng: 70.0539503,
+  placeId: "ChIJhYnmOgBrVzkRgK4Q4UscxaU",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Glam%20and%20Glow%20Studio%20Jamnagar&query_place_id=ChIJhYnmOgBrVzkRgK4Q4UscxaU",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLfLY78lECHZ2NagMykw1SF8dFcmZ1qstrNSVCT3i3A19l-apDEW3SV7n3qPQ2-TxGJGkqFi_mYHF5HOjEfNZIdBHo4SFbp9TmogeTIcyRMpqTq7db1KnN6Majxy48dDhaFmqmwjPi2T_jY=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 8 PM" },
+  { day: "Tuesday", time: "10 AM to 8 PM" },
+  { day: "Wednesday", time: "10 AM to 8 PM" },
+  { day: "Thursday", time: "10 AM to 8 PM" },
+  { day: "Friday", time: "10 AM to 8 PM" },
+  { day: "Saturday", time: "10 AM to 8 PM" },
+  { day: "Sunday", time: "10 AM to 8 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
