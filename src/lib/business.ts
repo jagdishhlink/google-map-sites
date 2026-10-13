@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Riddhi's Bride Tribe",
+  slug: "riddhis-bride-tribe",
+  category: "Beauty salon",
+  phone: "+91 90335 66501",
+  phoneRaw: "919033566501",
+  address: "Shrikar Apartment, Palace Rd, above Sanjivani Medical store, near V-mart, Jamnagar, Gujarat 361002, India",
+  street: "Shrikar Apartment, Palace Rd, above Sanjivani Medical store, near V-mart",
+  neighborhood: "Aradhna Society, Mahavir Society, Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.8,
+  reviews: 782,
+  fiveStarPct: 91,
+  images: 69,
+  lat: 22.479605,
+  lng: 70.0531072,
+  placeId: "ChIJb8iiG6xrVzkRoohL3CNd8As",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Riddhi's%20Bride%20Tribe&query_place_id=ChIJb8iiG6xrVzkRoohL3CNd8As",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLe0nIKAueRnOi7FZzD8V9zf0j1ipH5TGy6QjWInknOsRJkdemypuwou2z8hsf5L7ksSlv7SkeIHOCmfzEbCA5rpFpCdd17biWXP-7jhamzs707lGZSe4wILvNVA7VAIIDkWe8Y=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 8 PM" },
+  { day: "Tuesday", time: "10 AM to 8 PM" },
+  { day: "Wednesday", time: "10 AM to 8 PM" },
+  { day: "Thursday", time: "10 AM to 8 PM" },
+  { day: "Friday", time: "10 AM to 8 PM" },
+  { day: "Saturday", time: "10 AM to 8 PM" },
+  { day: "Sunday", time: "10 AM to 8 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
