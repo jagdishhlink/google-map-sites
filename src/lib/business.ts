@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Mysha Beauty Salon",
+  slug: "mysha-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 50 514 9290",
+  phoneRaw: "971505149290",
+  address: "772V+Q3R - G Floor - 19 4C St - Bur Dubai - Dubai - United Arab Emirates",
+  street: "772V+Q3R - G Floor - 19 4C St",
+  neighborhood: "Bur Dubai",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 32,
+  fiveStarPct: 94,
+  images: 12,
+  lat: 25.2520065,
+  lng: 55.2926238,
+  placeId: "ChIJh4YW23lDXz4RFEPn2eLCo98",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mysha%20Beauty%20Salon&query_place_id=ChIJh4YW23lDXz4RFEPn2eLCo98",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLcd2MFtl-FaXAzjsu9dPZFv9SziZlfDOYqPZDtwStsaVpOCSRONlOErQ2u45HLvZavSotwBNpeLnHpzl6AjfGlbv225Ke0y3RmXlowCNVEBgQWy0ghb49q6B7Oe1wdQiXpzwVfexQ=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 9 PM" },
+  { day: "Tuesday", time: "10 AM to 9 PM" },
+  { day: "Wednesday", time: "10 AM to 9 PM" },
+  { day: "Thursday", time: "10 AM to 9 PM" },
+  { day: "Friday", time: "10 AM to 9 PM" },
+  { day: "Saturday", time: "10 AM to 9 PM" },
+  { day: "Sunday", time: "10 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
