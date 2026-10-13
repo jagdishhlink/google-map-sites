@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Nine Zero One Salon",
+  slug: "nine-zero-one-salon",
+  category: "Beauty salon",
+  phone: "+91 97379 11151",
+  phoneRaw: "919737911151",
+  address: "Park Colony Main Rd, opp. IDFC bank, beside Federal Bank, Park Colony, Jamnagar, Gujarat 361008, India",
+  street: "Park Colony Main Rd, opp. IDFC bank, beside Federal Bank",
+  neighborhood: "Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.3,
+  reviews: 63,
+  fiveStarPct: 70,
+  images: 19,
+  lat: 22.4822484,
+  lng: 70.0579258,
+  placeId: "ChIJk-nxlalqVzkR0ZT3nqCxCyo",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Nine%20Zero%20One%20Salon&query_place_id=ChIJk-nxlalqVzkR0ZT3nqCxCyo",
+  imageUrl: "https://lh4.googleusercontent.com/isAIYxpnNqxcD3TTyWroJ5sf6D5CEHjL_XfynwHIadVUfA7hNu0vatHQAGiS38xX=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10:30 AM to 8:30 PM" },
+  { day: "Tuesday", time: "10:30 AM to 8:30 PM" },
+  { day: "Wednesday", time: "10:30 AM to 8:30 PM" },
+  { day: "Thursday", time: "10:30 AM to 8:30 PM" },
+  { day: "Friday", time: "10:30 AM to 8:30 PM" },
+  { day: "Saturday", time: "11 AM to 8 PM" },
+  { day: "Sunday", time: "10:30 AM to 8:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
