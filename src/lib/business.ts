@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Infinity Unisex Salon",
+  slug: "infinity-unisex-salon",
+  category: "Hair salon",
+  phone: "+91 88663 30970",
+  phoneRaw: "918866330970",
+  address: "manu smruti app, palace ground, Swastik Society, Park Colony Saru section, road, near limbu soda shop, Jamnagar, Gujarat 361002, India",
+  street: "manu smruti app, palace ground, Swastik Society, Park Colony Saru section, road, near limbu soda shop",
+  neighborhood: "Aradhna Society, Mahavir Society, Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.4,
+  reviews: 349,
+  fiveStarPct: 75,
+  images: 83,
+  lat: 22.4796179,
+  lng: 70.0515934,
+  placeId: "ChIJtU1uPs5rVzkR4BoH0APjXxw",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Infinity%20Unisex%20Salon&query_place_id=ChIJtU1uPs5rVzkR4BoH0APjXxw",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLfaZ1sVZagVhgs_7Ax01wkDOqeZlwVcg5sVMtgizXOF-fG7yzut0UnDzy2LB04zD8zWAOOCC9jBCLrcmNiswifHU2XfLPGA53MBfg8PkmwEu185r_jIntAUai4BqWm1XRwOBkCQ6Q=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9:30 AM to 10:30 PM" },
+  { day: "Tuesday", time: "9:30 AM to 10:30 PM" },
+  { day: "Wednesday", time: "9 AM to 10:30 PM" },
+  { day: "Thursday", time: "9:30 AM to 10:30 PM" },
+  { day: "Friday", time: "9:30 AM to 10:30 PM" },
+  { day: "Saturday", time: "9:30 AM to 10:30 PM" },
+  { day: "Sunday", time: "9:30 AM to 10:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
