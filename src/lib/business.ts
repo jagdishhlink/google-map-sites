@@ -1,0 +1,40 @@
+export const biz = {
+  name: "B & B UNISEX SALON",
+  slug: "b-b-unisex-salon",
+  category: "Hair salon",
+  phone: "+91 96386 75511",
+  phoneRaw: "919638675511",
+  address: "Shreeji, Ground Floor, 4, behind Reebok Showroom, beside St Ann's School, Patel Colony, Jamnagar, Gujarat 361008, India",
+  street: "Shreeji, Ground Floor, 4, behind Reebok Showroom, beside St Ann's School",
+  neighborhood: "Patel Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 23,
+  fiveStarPct: 87,
+  images: 6,
+  lat: 22.4833498,
+  lng: 70.0585583,
+  placeId: "ChIJ6y4h1QVrVzkR1bMLT0WIKjw",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=B%20%26%20B%20UNISEX%20SALON&query_place_id=ChIJ6y4h1QVrVzkR1bMLT0WIKjw",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLfxpPsTLZ5qY1hqowbhKTo_jaGriBy7ZrlAhakR-krLeSot0RNVlSNIiW2TrWSGlMq6E2qNs7bFTB-36jhdmeORKLJ6E0GLAdUcvGCz44aFlvSmOy5_OwdF60ohU3MYePsbs_imFQ=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 9 PM" },
+  { day: "Tuesday", time: "10 AM to 9 PM" },
+  { day: "Wednesday", time: "10 AM to 9 PM" },
+  { day: "Thursday", time: "10 AM to 9 PM" },
+  { day: "Friday", time: "10 AM to 9 PM" },
+  { day: "Saturday", time: "Closed" },
+  { day: "Sunday", time: "10 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
