@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Dubais Golden Scissors Ladies Beauty Parlour - Makeup Artist/Hair Artist/Bridal Makeup/Best Ladies Beauty Parlour in Jamnagar",
+  slug: "dubais-golden-scissors-ladies-beauty-parlour-makeu",
+  category: "Beauty salon",
+  phone: "+91 94293 35115",
+  phoneRaw: "919429335115",
+  address: "Shop No 103, Simandhar Elegance, Near HDFC Bank, Opp, Joggers Park Rd, Jamnagar, Gujarat 361002, India",
+  street: "Shop No 103, Simandhar Elegance, Near HDFC Bank, Opp, Joggers Park Rd",
+  neighborhood: "Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.1,
+  reviews: 166,
+  fiveStarPct: 56,
+  images: 57,
+  lat: 22.4807249,
+  lng: 70.0567225,
+  placeId: "ChIJ_UYIfalqVzkR9Hv526IepIY",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Dubais%20Golden%20Scissors%20Ladies%20Beauty%20Parlour%20-%20Makeup%20Artist%2FHair%20Artist%2FBridal%20Makeup%2FBest%20Ladies%20Beauty%20Parlour%20in%20Jamnagar&query_place_id=ChIJ_UYIfalqVzkR9Hv526IepIY",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLcLxP3NJ5tiOLiFcz5jKBekrUGmfxe34d6LrncLAOZSgmhhAafOir9k3DZjmFhPhWZ6l04FnvtoCN1_8svFX1h_P6xvCxjTCkGL5jv6-h4RX_Klqu_Em6jSmIh5QwGP9t4keMRL=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "Closed" },
+  { day: "Tuesday", time: "10 AM to 7:30 PM" },
+  { day: "Wednesday", time: "10 AM to 7:30 PM" },
+  { day: "Thursday", time: "10 AM to 7:30 PM" },
+  { day: "Friday", time: "10 AM to 7:30 PM" },
+  { day: "Saturday", time: "10 AM to 7:30 PM" },
+  { day: "Sunday", time: "10 AM to 7:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible restroom"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
