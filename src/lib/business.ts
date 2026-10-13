@@ -1,0 +1,40 @@
+export const biz = {
+  name: "The Heaven Beauty Salon",
+  slug: "the-heaven-beauty-salon",
+  category: "Beauty salon",
+  phone: "+91 97122 70020",
+  phoneRaw: "919712270020",
+  address: "Airforce Rd, near crystal mall, Khodiyar Colony, Jamnagar, Gujarat 361002, India",
+  street: "Airforce Rd, near crystal mall",
+  neighborhood: "Khodiyar Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.5,
+  reviews: 476,
+  fiveStarPct: 73,
+  images: 36,
+  lat: 22.4710746,
+  lng: 70.0486008,
+  placeId: "ChIJobdWYU0VVzkRaDJX6YevBq0",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=The%20Heaven%20Beauty%20Salon&query_place_id=ChIJobdWYU0VVzkRaDJX6YevBq0",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLfobuQZyPtszK9qVD7x3xKb38lIVdVsksZ3AUzCtRpWWdbtRRcCI0wYh4E4NzdM63dnUHcPpYrTZLviZJRh3UCYOu8v9EwuVKrWU3zxf2kZhirnNWT8OJYq9dXnuSBv9ejMBWG_uA=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9:30 AM to 9 PM" },
+  { day: "Tuesday", time: "Closed" },
+  { day: "Wednesday", time: "9:30 AM to 9 PM" },
+  { day: "Thursday", time: "9:30 AM to 9 PM" },
+  { day: "Friday", time: "9:30 AM to 9 PM" },
+  { day: "Saturday", time: "9:30 AM to 9 PM" },
+  { day: "Sunday", time: "9:30 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
