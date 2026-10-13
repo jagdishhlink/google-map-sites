@@ -1,0 +1,40 @@
+export const biz = {
+  name: "MISHRI BEAUTY SALON L.L.C",
+  slug: "mishri-beauty-salon-llc",
+  category: "Beauty salon",
+  phone: "+971 4 570 7812",
+  phoneRaw: "97145707812",
+  address: "Al Souq Al Kabeer - Dubai - United Arab Emirates",
+  street: "",
+  neighborhood: "Al Souq Al Kabeer",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 107,
+  fiveStarPct: 98,
+  images: 19,
+  lat: 25.2614779,
+  lng: 55.2945719,
+  placeId: "ChIJ_bFD_Y9DXz4R1ctXxifjgMY",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=MISHRI%20BEAUTY%20SALON%20L.L.C&query_place_id=ChIJ_bFD_Y9DXz4R1ctXxifjgMY",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmO22lUBGBNjbpbRf8JWJuYRwckemyUGCpkNl_U8TC34W5Oyzn5Xbmz4zaCmgqfy5U04gZV_Q7cA9QBAhiMbHfziw9qb1ivB9KsDy-HFHvyprJm6MK4ExPJakZLKclx_Vet3Jve7tSJB5u4z=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9:30 AM to 9:30 PM" },
+  { day: "Tuesday", time: "9:30 AM to 9:30 PM" },
+  { day: "Wednesday", time: "9:30 PM to 12 AM" },
+  { day: "Thursday", time: "12 AM to 9:30 PM" },
+  { day: "Friday", time: "9:30 AM to 9:30 PM" },
+  { day: "Saturday", time: "9:30 AM to 9:30 PM" },
+  { day: "Sunday", time: "9:30 AM to 9:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
