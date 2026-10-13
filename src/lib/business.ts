@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Krishma Beauty Creation",
+  slug: "krishma-beauty-creation",
+  category: "Beauty salon",
+  phone: "+91 98244 97374",
+  phoneRaw: "919824497374",
+  address: "Valkeshwari St, Phase 2, Valkeshwari, Park Colony, Jamnagar, Gujarat 361006, India",
+  street: "Valkeshwari St",
+  neighborhood: "Phase 2, Valkeshwari, Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.6,
+  reviews: 153,
+  fiveStarPct: 80,
+  images: 4,
+  lat: 22.4727511,
+  lng: 70.0595766,
+  placeId: "ChIJ6T98TLtrVzkRxqtkrtmqtSw",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Krishma%20Beauty%20Creation&query_place_id=ChIJ6T98TLtrVzkRxqtkrtmqtSw",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLe6CxFtRPhvrsZGy2eAiqV72v1crD2jRYqB1i0RTeQC1IcsasXx6XVxLGNKJL60sumTiyxzmVkHAYdRWagHSiS0iPG8KGmZpvFXG750JAN4xlV0YPoNV7juQ2qIVF0CRkWKi-Zy3Q=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 8 PM" },
+  { day: "Tuesday", time: "10 AM to 8 PM" },
+  { day: "Wednesday", time: "10 AM to 8 PM" },
+  { day: "Thursday", time: "10 AM to 8 PM" },
+  { day: "Friday", time: "10 AM to 8 PM" },
+  { day: "Saturday", time: "10 AM to 8 PM" },
+  { day: "Sunday", time: "10 AM to 2 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
