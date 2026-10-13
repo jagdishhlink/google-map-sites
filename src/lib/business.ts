@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Sister's Secret Ladies Salon",
+  slug: "sisters-secret-ladies-salon",
+  category: "Beauty salon",
+  phone: "+971 50 485 9805",
+  phoneRaw: "971504859805",
+  address: "38a 13c St - Al Souq Al Kabeer - Al Fahidi - Dubai - United Arab Emirates",
+  street: "38a 13c St",
+  neighborhood: "Al Souq Al Kabeer - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 5,
+  reviews: 125,
+  fiveStarPct: 99,
+  images: 23,
+  lat: 25.2631654,
+  lng: 55.2926867,
+  placeId: "ChIJ4YZCSldDXz4RwEdIzlkoWBY",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Sister's%20Secret%20Ladies%20Salon&query_place_id=ChIJ4YZCSldDXz4RwEdIzlkoWBY",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmPBZaQAWISwc-Tifh-Hr0P1DlqbXwAedF5fodKJDW8AAan8RTuIz4bIJWm5d4qNq_zccEyLIxi_6lf5rQik34-pq7l8Ay_jU-ibKwRcwZFqXNBJJytSczQAJqN8wWh3nMNCM8bGYcbWJgEh=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
