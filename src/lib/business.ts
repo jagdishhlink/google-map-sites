@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Beautiful Times Salon and Spa",
+  slug: "beautiful-times-salon-and-spa",
+  category: "Beauty salon",
+  phone: "+971 4 352 9966",
+  phoneRaw: "97143529966",
+  address: "Suite 62, Al Abbas Building 1, (6th Floor), Entrance between Mercado and HBL Bank - Khalid Bin Al Waleed Rd - Dubai - United Arab Emirates",
+  street: "Suite 62, Al Abbas Building 1, (6th Floor), Entrance between Mercado and HBL Bank - Khalid Bin Al Waleed Rd",
+  neighborhood: "Mankhool",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.4,
+  reviews: 374,
+  fiveStarPct: 76,
+  images: 97,
+  lat: 25.2561162,
+  lng: 55.3011768,
+  placeId: "ChIJ0yy52jpDXz4RtFhkGFlnaPs",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Beautiful%20Times%20Salon%20and%20Spa&query_place_id=ChIJ0yy52jpDXz4RtFhkGFlnaPs",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmNbx6KfCBem0MhW0LETA3FAzWdldxA0fkgQCD2ggliX90PYR7OBtX7-PCklrvM9Heos9QRF_RSJaLfVZmj_9xdgVj3U0Sd-9-4MzUNmNBTRr0GaVg2u7FpZTTsSF6ayZZJ5Wo_PmA=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
