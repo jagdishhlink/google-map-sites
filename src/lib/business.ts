@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Ruby Glow Beauty Salon & Spa",
+  slug: "ruby-glow-beauty-salon-spa",
+  category: "Beauty salon",
+  phone: "+971 4 388 7703",
+  phoneRaw: "97143887703",
+  address: "Al Ghubaiba Rd - Al Souq Al Kabeer - Al Fahidi - Dubai - United Arab Emirates",
+  street: "Al Ghubaiba Rd",
+  neighborhood: "Al Souq Al Kabeer - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.2,
+  reviews: 103,
+  fiveStarPct: 66,
+  images: 18,
+  lat: 25.2626399,
+  lng: 55.2877235,
+  placeId: "ChIJR-5y6xNDXz4RXnFntsOtEBI",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ruby%20Glow%20Beauty%20Salon%20%26%20Spa&query_place_id=ChIJR-5y6xNDXz4RXnFntsOtEBI",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmOctYheu238mQfL0IgQBX2m44y-e_y72Q_PjsrK4P_k1BzaUqe2_h24i2j4oZoKaRmPXUllQkjqG4S1KDy-Yz-LMvvQ0ygCQFv_xpF_1K33ZmESRvoi-e9aIM7ibNisdls7Md3quA=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 9:30 PM" },
+  { day: "Tuesday", time: "10 AM to 9:30 PM" },
+  { day: "Wednesday", time: "10 AM to 9:30 PM" },
+  { day: "Thursday", time: "10 AM to 9:30 PM" },
+  { day: "Friday", time: "11 AM to 9:30 PM" },
+  { day: "Saturday", time: "10 AM to 9:30 PM" },
+  { day: "Sunday", time: "10 AM to 9:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible entrance", "Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
