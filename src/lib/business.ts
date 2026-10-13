@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Pinky z Salon Al-Rigga , DUBAI",
+  slug: "pinky-z-salon-al-rigga-dubai",
+  category: "Beauty salon",
+  phone: "+971 50 297 0821",
+  phoneRaw: "971502970821",
+  address: "Al Rigga Rd - ديرة - Deira - Dubai - United Arab Emirates",
+  street: "Al Rigga Rd",
+  neighborhood: "ديرة - Deira",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.6,
+  reviews: 1504,
+  fiveStarPct: 86,
+  images: 1137,
+  lat: 25.2648634,
+  lng: 55.3188418,
+  placeId: "ChIJcXq0KXFdXz4RaF00PwCjsUY",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pinky%20z%20Salon%20Al-Rigga%20%2C%20DUBAI&query_place_id=ChIJcXq0KXFdXz4RaF00PwCjsUY",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmMcIq-LJVTl3LcR3I24_9pFxDGBEJanJQvRtXHMwXJBCaelLjs3Q0raTE79iIT3Zznox3_99ia2DbXxqNHPBI0F8PksoBt-0z7QCmgtipUpEKSsJX39R0cYqaH9EV_14Jx-khDGqg=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "Open 24 hours" },
+  { day: "Tuesday", time: "Open 24 hours" },
+  { day: "Wednesday", time: "Open 24 hours" },
+  { day: "Thursday", time: "Open 24 hours" },
+  { day: "Friday", time: "Open 24 hours" },
+  { day: "Saturday", time: "Open 24 hours" },
+  { day: "Sunday", time: "Open 24 hours" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible entrance", "Wheelchair accessible parking lot", "Wheelchair accessible restroom", "Wheelchair accessible seating"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
