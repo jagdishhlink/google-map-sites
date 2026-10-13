@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Memories Salon And Spa",
+  slug: "memories-salon-and-spa",
+  category: "Beauty salon",
+  phone: "+971 56 296 9690",
+  phoneRaw: "971562969690",
+  address: "Hyatt Regency Dubai - Al Khaleej St - Al Corniche - Deira - Dubai - United Arab Emirates",
+  street: "Hyatt Regency Dubai - Al Khaleej St",
+  neighborhood: "Al Corniche - Deira",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.5,
+  reviews: 44,
+  fiveStarPct: 89,
+  images: 51,
+  lat: 25.2788987,
+  lng: 55.3044613,
+  placeId: "ChIJ5cQON2RdXz4RO1wvbNMjPp8",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Memories%20Salon%20And%20Spa&query_place_id=ChIJ5cQON2RdXz4RO1wvbNMjPp8",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLdBRjrWUp1-dMF__7r32rbK0hxwVCXnHc2pRokZV1dMedT427k3zWtHmccsh7N3E2ZgyWA8nNvarQkIue2RCWGj5DTvp_Nf9MKgbcLcfr19GACyT-TxJdLrJcLVSFlwiaNUWjFOGA=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 9 PM" },
+  { day: "Tuesday", time: "10 AM to 9 PM" },
+  { day: "Wednesday", time: "10 AM to 9 PM" },
+  { day: "Thursday", time: "10 AM to 9 PM" },
+  { day: "Friday", time: "10 AM to 9 PM" },
+  { day: "Saturday", time: "10 AM to 9 PM" },
+  { day: "Sunday", time: "10 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
