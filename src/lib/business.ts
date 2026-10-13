@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Y P beauty salon",
+  slug: "y-p-beauty-salon",
+  category: "Barber shop",
+  phone: "+91 98245 82199",
+  phoneRaw: "919824582199",
+  address: "Gokul Nagar Jakat Naka, Radar Rd, Jamnagar, Gujarat 361006, India",
+  street: "Gokul Nagar Jakat Naka, Radar Rd",
+  neighborhood: "Pavan Chakki, Gokul Nagar",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.1,
+  reviews: 702,
+  fiveStarPct: 54,
+  images: 55,
+  lat: 22.4527634,
+  lng: 70.0427298,
+  placeId: "ChIJJZVBODEVVzkRtK-Ldn92HNA",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Y%20P%20beauty%20salon&query_place_id=ChIJJZVBODEVVzkRtK-Ldn92HNA",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLc-X0JKaqi3ED1C3sNxz4I0tCIPhEQiTlmFBTJHgrOpNmJmEU-QkY2fsZZTwge-zRGXtsGcgYeNGLyzKgAwqaGowpgJNQaj6MxN_OwTIg4MxmU8SRgG8t3bhnofsY_a5GVCKqsAsA=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "8:30 AM to 10 PM" },
+  { day: "Tuesday", time: "8:30 AM to 10 PM" },
+  { day: "Wednesday", time: "8 AM to 10 PM" },
+  { day: "Thursday", time: "8:30 AM to 10 PM" },
+  { day: "Friday", time: "8:30 AM to 10:30 PM" },
+  { day: "Saturday", time: "8:30 AM to 1 PM" },
+  { day: "Sunday", time: "8:30 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
