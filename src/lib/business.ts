@@ -1,0 +1,40 @@
+export const biz = {
+  name: "The vogue family salon Jamnagar",
+  slug: "the-vogue-family-salon-jamnagar",
+  category: "Barber shop",
+  phone: "+91 87587 13737",
+  phoneRaw: "918758713737",
+  address: "Aerodrome Rd, near bajrang bakery, Khodiyar Colony, Jamnagar, Gujarat 361002, India",
+  street: "Aerodrome Rd, near bajrang bakery",
+  neighborhood: "Khodiyar Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.7,
+  reviews: 94,
+  fiveStarPct: 84,
+  images: 82,
+  lat: 22.4711219,
+  lng: 70.0478579,
+  placeId: "ChIJoVGrkzYVVzkRfD0FmA-FUgY",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=The%20vogue%20family%20salon%20Jamnagar&query_place_id=ChIJoVGrkzYVVzkRfD0FmA-FUgY",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLe3xS7rZXb0uFeUyKNYUkeCfaNVBDejFGtjqUF4Z64uzf49ybcbrdJiXLSd8F03BvatFb98awaZiL1ev643KrWwwOnO_XZDF2f99w1zboHGtNVjx1sodcA8yeshXENLZT27R5DGUw=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9 AM to 9 PM" },
+  { day: "Tuesday", time: "9 AM to 9 PM" },
+  { day: "Wednesday", time: "9 AM to 9 PM" },
+  { day: "Thursday", time: "9 AM to 9 PM" },
+  { day: "Friday", time: "9 AM to 9 PM" },
+  { day: "Saturday", time: "9 AM to 9 PM" },
+  { day: "Sunday", time: "9 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
