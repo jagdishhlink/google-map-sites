@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Ivy Beauty & Bubbles Nikki Beach Resort&Spa Dubai",
+  slug: "ivy-beauty-bubbles-nikki-beach-resortspa-dubai",
+  category: "Beauty salon",
+  phone: "+971 52 743 4416",
+  phoneRaw: "971527434416",
+  address: "Pearl Jumeirah Resort&Spa Nikki Beach - Dubai - United Arab Emirates",
+  street: "Pearl Jumeirah Resort&Spa Nikki Beach",
+  neighborhood: "Jumeirah 1 - Jumeirah",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.8,
+  reviews: 5788,
+  fiveStarPct: 93,
+  images: 1745,
+  lat: 25.2457527,
+  lng: 55.256342,
+  placeId: "ChIJFwlHIVVDXz4RDOazhfWIlFI",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ivy%20Beauty%20%26%20Bubbles%20Nikki%20Beach%20Resort%26Spa%20Dubai&query_place_id=ChIJFwlHIVVDXz4RDOazhfWIlFI",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLfdMkSd6OMz6_FUfjU9VEUtMZ8yVywylVa25m-s0FluNUG_0zXDM0jS5t0WMz2FHvOEz4Sry1VQLzSd5g4rUdj-3Ys9z5GlpjHeJjHUNOjIXZLpbRa808mqXuSyu-Dqc3kUIDHV=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9 AM to 12 AM" },
+  { day: "Tuesday", time: "9 AM to 12 AM" },
+  { day: "Wednesday", time: "9 AM to 12 AM" },
+  { day: "Thursday", time: "9 AM to 12 AM" },
+  { day: "Friday", time: "9 AM to 12 AM" },
+  { day: "Saturday", time: "9 AM to 12 AM" },
+  { day: "Sunday", time: "9 AM to 12 AM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible entrance", "Wheelchair accessible parking lot", "Wheelchair accessible restroom"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
