@@ -1,0 +1,40 @@
+export const biz = {
+  name: "The heaven premium ladies salon",
+  slug: "the-heaven-premium-ladies-salon",
+  category: "Beauty salon",
+  phone: "+91 97122 70020",
+  phoneRaw: "919712270020",
+  address: "103 platinum, above swift mart, near Joggers Park Road, Park Colony, Jamnagar, Gujarat 361002, India",
+  street: "103 platinum, above swift mart, near Joggers Park Road",
+  neighborhood: "Park Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 143,
+  fiveStarPct: 94,
+  images: 15,
+  lat: 22.4797517,
+  lng: 70.0565343,
+  placeId: "ChIJQVFYfgBrVzkReiJfEu5ELCM",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=The%20heaven%20premium%20ladies%20salon&query_place_id=ChIJQVFYfgBrVzkReiJfEu5ELCM",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLfv5-9woyoKWeshXA1pzux1fflwRph8nBFd8Bmhkmk9WttpdImlmbjrmmTwy0pl25cO2TtAIGoJAg2v3C6YqDnO_kH-vHH1WmVc8PEY3gwKYyd4wAPnt56sBO4ptOlxS62e3Nk4UTimTAeq=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9:30 AM to 8 PM" },
+  { day: "Tuesday", time: "9:30 AM to 1 PM" },
+  { day: "Wednesday", time: "9:30 AM to 8 PM" },
+  { day: "Thursday", time: "9:30 AM to 8 PM" },
+  { day: "Friday", time: "9:30 AM to 8 PM" },
+  { day: "Saturday", time: "9:30 AM to 8 PM" },
+  { day: "Sunday", time: "9:30 AM to 8 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
