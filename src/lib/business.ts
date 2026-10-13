@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Pinki Beauty Salon",
+  slug: "pinki-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 55 750 1202",
+  phoneRaw: "971557501202",
+  address: "Al Fahidi Plaza - Shop No 27 49 27E Street - Al Souq Al Kabeer - Al Fahidi - Dubai - United Arab Emirates",
+  street: "Al Fahidi Plaza - Shop No 27 49 27E Street",
+  neighborhood: "Al Souq Al Kabeer - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.5,
+  reviews: 254,
+  fiveStarPct: 84,
+  images: 76,
+  lat: 25.2615056,
+  lng: 55.2982256,
+  placeId: "ChIJ89NovHhDXz4R2p7-EOl3w38",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pinki%20Beauty%20Salon&query_place_id=ChIJ89NovHhDXz4R2p7-EOl3w38",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmNOu9ECcVF-tbzyiUCvmgHUbAsO5REoKW80E7php82E7KF87Ac68wzZJkMvPF_wlMrpuRE6YjkNlTV1t5hJAEthBAt9WbJf6v9fb0HDiginz63gkyiil0fVb-vtdvcRjix0Xj8=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "11 AM to 10 PM" },
+  { day: "Tuesday", time: "11 AM to 10 PM" },
+  { day: "Wednesday", time: "11 AM to 10 PM" },
+  { day: "Thursday", time: "11 AM to 10 PM" },
+  { day: "Friday", time: "11 AM to 10 PM" },
+  { day: "Saturday", time: "11 AM to 10 PM" },
+  { day: "Sunday", time: "11 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
