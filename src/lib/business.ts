@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Jinal Beauty Care",
+  slug: "jinal-beauty-care",
+  category: "Beauty salon",
+  phone: "+91 93281 19954",
+  phoneRaw: "919328119954",
+  address: "Eiffel tower, Hirji Mistry Rd, near National Stationary Mart, Digvijay Plot, Jamnagar, Gujarat 361006, India",
+  street: "Eiffel tower, Hirji Mistry Rd, near National Stationary Mart",
+  neighborhood: "Digvijay Plot",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 253,
+  fiveStarPct: 95,
+  images: 32,
+  lat: 22.4620837,
+  lng: 70.0592041,
+  placeId: "ChIJQ7jVYPtrVzkRRpVWRO26U4o",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Jinal%20Beauty%20Care&query_place_id=ChIJQ7jVYPtrVzkRRpVWRO26U4o",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLexDjc0UPZnld1q8S5P14Tn7tg3dmj1bphKgCuHn7_d9_8uxIP3X5f3N2EEZzRpGQll4YA8DjELRfYucTXYuPTE83Ar8tej0goRJ8r0xRT8g7sAAbNqwx1WeRYUUX5E_X_2bG0=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 8 PM" },
+  { day: "Tuesday", time: "10 AM to 8 PM" },
+  { day: "Wednesday", time: "10 AM to 8 PM" },
+  { day: "Thursday", time: "10 AM to 8 PM" },
+  { day: "Friday", time: "10 AM to 8 PM" },
+  { day: "Saturday", time: "10 AM to 8 PM" },
+  { day: "Sunday", time: "10 AM to 8 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
