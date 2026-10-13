@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Ayoni Ladies Beauty Salon",
+  slug: "ayoni-ladies-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 52 838 3279",
+  phoneRaw: "971528383279",
+  address: "37D St - Al Souq Al Kabeer - Al Fahidi - Dubai - United Arab Emirates",
+  street: "37D St",
+  neighborhood: "Al Souq Al Kabeer - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.7,
+  reviews: 165,
+  fiveStarPct: 93,
+  images: 23,
+  lat: 25.2605685,
+  lng: 55.2934192,
+  placeId: "ChIJ8c2Udv-n4EIRsVO6DDkgmqM",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ayoni%20Ladies%20Beauty%20Salon&query_place_id=ChIJ8c2Udv-n4EIRsVO6DDkgmqM",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmMUl_jOKxqueH3-_4ShdzWzHQnIU1BYNVnhuVfL5g7znmFYRJzm41-WLh0NxeqG_U4Mw-JqaHHpiL94XGxTcJ5gkrRIBxmWBw4R4Kwmp36VOZnCDcOhqMN9C2Y9nQWnSnrCdCVAFg=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
