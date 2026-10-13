@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Pink Pie Beauty Salon",
+  slug: "pink-pie-beauty-salon",
+  category: "Beauty salon",
+  phone: "+971 50 514 0680",
+  phoneRaw: "971505140680",
+  address: "6 74th St - Al Souq Al Kabeer - Al Fahidi - Dubai - United Arab Emirates",
+  street: "6 74th St",
+  neighborhood: "Al Souq Al Kabeer - Al Fahidi",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 609,
+  fiveStarPct: 92,
+  images: 129,
+  lat: 25.2624105,
+  lng: 55.2984842,
+  placeId: "ChIJvzExJjlDXz4R3ZUZLq8axUM",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pink%20Pie%20Beauty%20Salon&query_place_id=ChIJvzExJjlDXz4R3ZUZLq8axUM",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLef77GHVn0wu87NcOJmEmuAfEDpKufCFIE_hg2B1bEmiQnMZSlaYTyT-zCyaP1Hva4JywyMHcZoly5QiTv2pZkoxNh6nrpCdWXu9tfChXYjoYRYssoFF5a_HthVgUjJRGn_EUyH=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 9:30 PM" },
+  { day: "Tuesday", time: "10 AM to 9:30 PM" },
+  { day: "Wednesday", time: "10 AM to 9:30 PM" },
+  { day: "Thursday", time: "10 AM to 9:30 PM" },
+  { day: "Friday", time: "10 AM to 9:30 PM" },
+  { day: "Saturday", time: "10 AM to 9:30 PM" },
+  { day: "Sunday", time: "10 AM to 9:30 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
