@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Royal Salon",
+  slug: "royal-salon",
+  category: "Hairdresser",
+  phone: "+91 99980 91213",
+  phoneRaw: "919998091213",
+  address: "Murlidhar Complex, Pavan Chakki, Gokul Nagar, Jamnagar, Gujarat 361006, India",
+  street: "Murlidhar Complex",
+  neighborhood: "Pavan Chakki, Gokul Nagar",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 19,
+  fiveStarPct: 95,
+  images: 17,
+  lat: 22.4526707,
+  lng: 70.0427189,
+  placeId: "ChIJXZdRODEVVzkReVSsE30bpPw",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Royal%20Salon&query_place_id=ChIJXZdRODEVVzkReVSsE30bpPw",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLdB0BsupaBl9HMHztJhrP-lfZXLkAaagSC_F9HlGKgnru1SA6AEmMOh3iWgLqc8XA-NMDKdvjX_j5uzPDPYOX6kUG-oA0lb2-oUW3rHwo6sqX9ZAHC8dP3t7939feci0SFwO9rq=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "Closed" },
+  { day: "Tuesday", time: "Closed" },
+  { day: "Wednesday", time: "Closed" },
+  { day: "Thursday", time: "Closed" },
+  { day: "Friday", time: "Closed" },
+  { day: "Saturday", time: "9 AM to 5 PM" },
+  { day: "Sunday", time: "Closed" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
