@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Ivy Beauty & Bubbles Sheraton Grand Dubai",
+  slug: "ivy-beauty-bubbles-sheraton-grand-dubai",
+  category: "Beauty salon",
+  phone: "+971 52 743 4416",
+  phoneRaw: "971527434416",
+  address: "3 Sheikh Zayed Rd - Trade Center First - Dubai - United Arab Emirates",
+  street: "3 Sheikh Zayed Rd",
+  neighborhood: "Trade Center First",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.7,
+  reviews: 4488,
+  fiveStarPct: 92,
+  images: 1009,
+  lat: 25.2294453,
+  lng: 55.2866094,
+  placeId: "ChIJSczn7OhDXz4Rx15psO4LBMc",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ivy%20Beauty%20%26%20Bubbles%20Sheraton%20Grand%20Dubai&query_place_id=ChIJSczn7OhDXz4Rx15psO4LBMc",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLeIcnu3qIDIW1WsuXwtUd96hV6FT_I1WMRxrXlh_JiwFKZqdMj9G8WpQCIr1-Zmln62rD_dVvUyH7ZSbFHuOUF7cggL4m1xiBVmx4QlD7WHpPdvVyJVceYTU_m6BwDV7ocWeFda0BRhLkOh=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9 AM to 12 AM" },
+  { day: "Tuesday", time: "9 AM to 12 AM" },
+  { day: "Wednesday", time: "9 AM to 12 AM" },
+  { day: "Thursday", time: "9 AM to 12 AM" },
+  { day: "Friday", time: "9 AM to 12 AM" },
+  { day: "Saturday", time: "9 AM to 12 AM" },
+  { day: "Sunday", time: "9 AM to 12 AM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible entrance", "Wheelchair accessible parking lot", "Wheelchair accessible restroom"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
