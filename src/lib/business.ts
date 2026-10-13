@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Beauty Kshetra Ladies Salon",
+  slug: "beauty-kshetra-ladies-salon",
+  category: "Beauty salon",
+  phone: "+971 55 336 6360",
+  phoneRaw: "971553366360",
+  address: "25 Al Rola St - Al Raffa - Dubai - United Arab Emirates",
+  street: "25 Al Rola St",
+  neighborhood: "Al Raffa",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.6,
+  reviews: 267,
+  fiveStarPct: 81,
+  images: 13,
+  lat: 25.2572101,
+  lng: 55.2895875,
+  placeId: "ChIJXYh_eRZDXz4RIXUSjFsJ-38",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Beauty%20Kshetra%20Ladies%20Salon&query_place_id=ChIJXYh_eRZDXz4RIXUSjFsJ-38",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/ACvplmOgl21U5T9scUK5sp-kllW4TwGl2_C6PrQ9JutjiQQTN-rTwBAn9KcpiXYhZoIhLyRqUX-Q1ARph9hPCKxmqU1zLgCWz6FNNqEt7QsQS-xxFx-bHNS7QyQivLbBhTL_eCStsbG5=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
