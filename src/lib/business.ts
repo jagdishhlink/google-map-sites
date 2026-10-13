@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Meghna's Makeover",
+  slug: "meghnas-makeover",
+  category: "Beauty salon",
+  phone: "+91 99252 39428",
+  phoneRaw: "919925239428",
+  address: "1, Dwarkesh 5, near Plasma school, Madhav Baug, Gokul Nagar, Jamnagar, Gujarat 361006, India",
+  street: "1, Dwarkesh 5, near Plasma school",
+  neighborhood: "Madhav Baug, Gokul Nagar",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.8,
+  reviews: 5,
+  fiveStarPct: 80,
+  images: 19,
+  lat: 22.4385745,
+  lng: 70.0401522,
+  placeId: "ChIJ3VY2mDEVVzkR28g50nHz3aU",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Meghna's%20Makeover&query_place_id=ChIJ3VY2mDEVVzkR28g50nHz3aU",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLcniv2GjHQ71yXE15l3qRXjSXelUUx4QjDIAE_43aXhIoOMTCb_CXmTaQEboshuDWhulpQcNFXvvSA1XzfQxPeDo_IYQsMSr0s-soroo8MNs4x4BruQw_tDNkzanW6WcqhMDIS2RQDeL9U=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "9 AM to 8 PM" },
+  { day: "Tuesday", time: "9 AM to 8 PM" },
+  { day: "Wednesday", time: "9 AM to 8 PM" },
+  { day: "Thursday", time: "9 AM to 8 PM" },
+  { day: "Friday", time: "9 AM to 8 PM" },
+  { day: "Saturday", time: "9 AM to 8 PM" },
+  { day: "Sunday", time: "Closed" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
