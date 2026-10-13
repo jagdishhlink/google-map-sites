@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Riddhi's saloon jamnagar",
+  slug: "riddhis-saloon-jamnagar",
+  category: "Beauty salon",
+  phone: "+91 95125 55825",
+  phoneRaw: "919512555825",
+  address: "First Floor, Satyam Colony Rd, near Bank Of Baroda, opposite Oswal Colony 2, Shivam Society, Satyam Colony, Jamnagar, Gujarat 361006, India",
+  street: "First Floor, Satyam Colony Rd, near Bank Of Baroda, opposite Oswal Colony 2",
+  neighborhood: "Shivam Society, Satyam Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 5,
+  reviews: 105,
+  fiveStarPct: 99,
+  images: 28,
+  lat: 22.4606998,
+  lng: 70.0422423,
+  placeId: "ChIJs6_kX7MVVzkRX0YuHK8bpvA",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Riddhi's%20saloon%20jamnagar&query_place_id=ChIJs6_kX7MVVzkRX0YuHK8bpvA",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLf-QsiIdVBwM8g3hqOc3aI51XyJwjZo-_Y1vQDADGskT9QJtjb1_q8WE5y3IcPc-xHlUbT-PK0Zv9JSyvzbQqoKKHCnoLNHoaeEnK-IdB5U3Hh0-iP9lxMK8I086x1WNbu8uRUukyST066u=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 7 PM" },
+  { day: "Tuesday", time: "10 AM to 7 PM" },
+  { day: "Wednesday", time: "10 AM to 7 PM" },
+  { day: "Thursday", time: "10 AM to 7 PM" },
+  { day: "Friday", time: "10 AM to 7 PM" },
+  { day: "Saturday", time: "10 AM to 7 PM" },
+  { day: "Sunday", time: "10 AM to 7 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
