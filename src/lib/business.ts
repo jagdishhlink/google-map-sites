@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Desert Wave Ladies Salon Dubai",
+  slug: "desert-wave-ladies-salon-dubai",
+  category: "Beauty salon",
+  phone: "+971 4 886 6167",
+  phoneRaw: "97148866167",
+  address: "26 26B St - Al Muraqqabat - Deira - Dubai - United Arab Emirates",
+  street: "26 26B St",
+  neighborhood: "Al Muraqqabat - Deira",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.5,
+  reviews: 573,
+  fiveStarPct: 82,
+  images: 257,
+  lat: 25.2656194,
+  lng: 55.320863,
+  placeId: "ChIJwa3qsYBdXz4RK86NSMW3ub0",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Desert%20Wave%20Ladies%20Salon%20Dubai&query_place_id=ChIJwa3qsYBdXz4RK86NSMW3ub0",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLdVbuqMYbjggJnpPct9gdNy_F-YrMiWT3_CIJHDlYb_eP84uGnLV_orE9cah35bq1fJymyrEr9QOyo6E9xboDqaZ_YHRWy3yPMveAQIhQKuKzb4wAB16nkkQ6JOuPrRqZw3vsFSEw=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: ["Wheelchair accessible parking lot"] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
