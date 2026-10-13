@@ -1,0 +1,40 @@
+export const biz = {
+  name: "Extra Look Hair Saloon",
+  slug: "extra-look-hair-saloon",
+  category: "Hair salon",
+  phone: "+91 99255 11150",
+  phoneRaw: "919925511150",
+  address: "Snehdhara Appartment, Street Number 6, Patel Colony, Jamnagar, Gujarat 361008, India",
+  street: "Snehdhara Appartment, Street Number 6",
+  neighborhood: "Patel Colony",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.9,
+  reviews: 403,
+  fiveStarPct: 96,
+  images: 21,
+  lat: 22.4856081,
+  lng: 70.059615,
+  placeId: "ChIJdbzySBFBVzkRd0MmtsfojgE",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Extra%20Look%20Hair%20Saloon&query_place_id=ChIJdbzySBFBVzkRd0MmtsfojgE",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLcJWyZoaAWy5nNzMdYw5FNJu3Gz3LaxzE6E6hN6gYWsH1UNyTWsoGky-MUEHwymkkTgvEwurccFt1KxaJtWK3LU7vdmB0llLKcGt7W75kNjty6x5YAA6aq0xX4xs3GK10Sybmj-=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10 AM to 10 PM" },
+  { day: "Tuesday", time: "10 AM to 10 PM" },
+  { day: "Wednesday", time: "10 AM to 10 PM" },
+  { day: "Thursday", time: "10 AM to 10 PM" },
+  { day: "Friday", time: "10 AM to 10 PM" },
+  { day: "Saturday", time: "10 AM to 10 PM" },
+  { day: "Sunday", time: "10 AM to 10 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
