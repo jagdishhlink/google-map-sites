@@ -1,0 +1,40 @@
+export const biz = {
+  name: "NAILED IT! JAMNAGAR",
+  slug: "nailed-it-jamnagar",
+  category: "Nail salon",
+  phone: "+91 73833 90357",
+  phoneRaw: "917383390357",
+  address: "First Floor, Road, near Khambaliya Gate, above Zorko Restaurant, Digvijay Plot, Jamnagar, Gujarat 361006, India",
+  street: "First Floor, Road, near Khambaliya Gate, above Zorko Restaurant",
+  neighborhood: "Digvijay Plot",
+  state: "Dubai",
+  country: "United Arab Emirates",
+  rating: 4.8,
+  reviews: 24,
+  fiveStarPct: 92,
+  images: 28,
+  lat: 22.4610383,
+  lng: 70.0697079,
+  placeId: "ChIJjzkp7D1rVzkRsOSWCkDOyVk",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=NAILED%20IT!%20JAMNAGAR&query_place_id=ChIJjzkp7D1rVzkRsOSWCkDOyVk",
+  imageUrl: "https://lh3.googleusercontent.com/grass-cs/AABkmLd4300htNP6Ok7SioRBmV1w27BgZiHxXDGZBWkkNEKOuhviGBExUv7FxHWXe0KizU0aCj7PuoQxZFi-BW0rDWUuiBcXyF0T6nAtJ7dSzyKQ8EFeyFE9CWmanAdlgZ9Wio__jj_z=w1600-h1200-k-no",
+  hours: [
+  { day: "Monday", time: "10:30 AM to 9 PM" },
+  { day: "Tuesday", time: "10:30 AM to 9 PM" },
+  { day: "Wednesday", time: "10:30 AM to 9 PM" },
+  { day: "Thursday", time: "10:30 AM to 9 PM" },
+  { day: "Friday", time: "10:30 AM to 9 PM" },
+  { day: "Saturday", time: "10:30 AM to 9 PM" },
+  { day: "Sunday", time: "10:30 AM to 9 PM" }
+  ] as { day: string; time: string }[],
+  accessibility: [] as string[],
+};
+
+export const services = [
+  { title: "Hair Styling", desc: "Precision cuts, blowouts, coloring, highlights & extensions" },
+  { title: "Facial Treatments", desc: "Deep cleansing, anti-aging, hydration & brightening facials" },
+  { title: "Nail Art & Care", desc: "Manicures, pedicures, gel nails & creative designs" },
+  { title: "Bridal Packages", desc: "Complete bridal beauty — hair, makeup, nails & skin prep" },
+  { title: "Spa & Massage", desc: "Relaxing massages, aromatherapy & body treatments" },
+  { title: "Makeup & Lashes", desc: "Event makeup, lash extensions, brow shaping & tinting" },
+];
